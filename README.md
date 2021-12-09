@@ -10,3 +10,7 @@ ls -r
 
 # list file in reverse order
 
+=======
+ls -lrt
+# long lasting file including file everse sorted by time.
+
