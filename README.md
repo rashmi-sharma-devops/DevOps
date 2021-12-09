@@ -17,3 +17,5 @@ ls -lrt
 =======
 ls
 # listing the all files and folder.
+=======
+# listing the files and all folder.
