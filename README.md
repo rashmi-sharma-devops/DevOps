@@ -16,4 +16,4 @@ ls -lrt
 
 =======
 ls
-# listing the files and folder.
+# listing the all files and folder.
