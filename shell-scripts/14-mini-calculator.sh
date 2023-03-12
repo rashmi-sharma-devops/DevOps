@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 echo "enter no.1"
 read n1
@@ -11,7 +11,7 @@ echo "sum = $sum"
 
 echo "substraction"
 sub=`expr $n1 - $n2`
-echo "sub = $sub" 
+echo "sub = $sub"
 
 echo "multiplication"
 mul=`expr $n1 \* $n2`
