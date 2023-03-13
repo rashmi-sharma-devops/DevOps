@@ -1,6 +1,6 @@
-#! /bin/bash
+#!/bin/bash
 
-echo "echo "Enter a:"
+echo "Enter a:"
 read a
 
 echo "Enter b:"
@@ -17,4 +17,5 @@ then
 	echo "b is smallest"
 else
 	echo "c is mallest"
+
 fi
