@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+# Check the Package is installed or not
+
+
+if [ -x "$(which java)" ]
+then
+	echo "Java installed."
+else
+	echo "Java NOT installed!"
+fi
+
+

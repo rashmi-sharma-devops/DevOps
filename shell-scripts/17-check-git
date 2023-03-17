@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# To check git is installed or not
+
+if git --version |grep -q "git version"
+then
+   echo "Git installed."
+else
+   echo "Git Not installes"
+fi
