@@ -1,0 +1,17 @@
+# Install the package
+
+sudo apt update
+sudo apt install apache2
+
+#check the status
+sudo ufw status
+
+## Start command ##
+sudo systemctl start apache2.service
+
+#checking your web server
+sudo systemctl status apache2
+
+#For checking the apache page please enter it into your browser’s address bar:
+#http://your_server_ip
+
