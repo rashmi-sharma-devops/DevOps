@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#Set the CATALINA_HOME environment variable
+
+export CATALINA_HOME=/usr/local/tomcat
+
+# Check if Tomcat is already running
+
+if ps aux | grep tomcat | grep -v grep > /dev/null
+then
+   echo "Tomcat is already running"
+else
+   # Start Tomcat
+   sudo $CATALINA_HOME/bin/startup.sh
+   echo "Tomcat started"
+fi

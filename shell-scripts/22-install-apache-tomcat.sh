@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 # Version
 TOMCAT_VERSION=9.0.57
